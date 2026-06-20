@@ -52,7 +52,7 @@ jobs:
       matrix:
         CONFIG: [JDCloud-Baili]
         REPO_INFO:
-          - {SOURCE: "chasey-dev/immortalwrt-mt798x-rebase", BRANCH: "25.12"}
+          - {SOURCE: "padavanonly/immortalwrt-mt798x-6.6", BRANCH: "2410"}
 
     #调用公用编译核心WRT-CORE.yml
     uses: ./.github/workflows/WRT-CORE.yml
